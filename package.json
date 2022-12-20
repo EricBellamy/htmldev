@@ -1,0 +1,17 @@
+{
+  "name": "htmldev",
+  "version": "1.0.0",
+  "description": "A global npm package that builds, hosts & deploys static HTML.",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricBellamy/htmldev.git"
+  },
+  "author": "",
+  "license": "No License",
+  "bugs": {
+    "url": "https://github.com/EricBellamy/htmldev/issues"
+  },
+  "homepage": "https://github.com/EricBellamy/htmldev#readme"
+}
