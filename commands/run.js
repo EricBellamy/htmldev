@@ -4,9 +4,9 @@ module.exports = async function (PORT_NUMBER, EMPTY = false) {
 	fs.ensureDirSync('dist');
 	if (EMPTY) fs.emptyDirSync('dist');
 
-	// Initialize watcher
+	// Initialize watcher, runs build once on start
 	require('../lib/build/watch.js')();
 
-	// Host HTTP server
-	require('../lib/server.js')(PORT_NUMBER);
+	// Host HTTP light-server (Hot reload)
+	require('../lib/lightserver.js')();
 }

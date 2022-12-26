@@ -18,11 +18,9 @@
     "clean-css": "^5.3.1",
     "colors": "^1.4.0",
     "fs-extra": "^11.1.0",
-    "http-server": "^14.1.1",
     "light-server": "^2.9.1",
     "node-html-parser": "^6.1.4",
     "nodemon": "^2.0.20",
-    "os": "^0.1.2",
     "terser": "^5.16.1",
     "webp-converter": "^2.3.3"
   }
