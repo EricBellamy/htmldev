@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 
-module.exports = async function (PORT_NUMBER, EMPTY = false) {
+module.exports = async function (PORT_NUMBER, EMPTY = true) {
 	fs.ensureDirSync('dist');
 	if (EMPTY) fs.emptyDirSync('dist');
 
