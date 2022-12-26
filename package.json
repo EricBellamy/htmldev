@@ -21,6 +21,7 @@
     "light-server": "^2.9.1",
     "node-html-parser": "^6.1.4",
     "nodemon": "^2.0.20",
+    "sharp": "^0.31.3",
     "terser": "^5.16.1",
     "webp-converter": "^2.3.3"
   }
