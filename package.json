@@ -18,11 +18,13 @@
     "clean-css": "^5.3.1",
     "colors": "^1.4.0",
     "fs-extra": "^11.1.0",
-    "html-validator": "^6.0.1",
+    "htmlhint": "^1.1.4",
     "light-server": "^2.9.1",
     "node-html-parser": "^6.1.4",
     "nodemon": "^2.0.20",
     "sharp": "^0.31.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0",
     "terser": "^5.16.1",
     "webp-converter": "^2.3.3"
   }
