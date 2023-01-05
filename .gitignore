@@ -2,4 +2,7 @@
 node_modules
 package-lock.json
 
+private/*
+!private/load.js
+
 todo.md
