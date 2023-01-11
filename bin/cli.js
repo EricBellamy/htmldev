@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-global.__htmldev_root = __dirname + "/..";
+const path = require('path');
+global.__htmldev_root = path.join(__dirname + "/..");
 
 const arguments = process.argv.splice(2);
 if (arguments[0] === undefined) arguments.push("help");
