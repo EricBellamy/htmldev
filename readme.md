@@ -48,7 +48,7 @@ Will execute any library file in a project folder with an htmldev function.
 ```javascript
 module.exports.scripts = ['private/tired/lib/frontend/xhr.js', ['private/tired/lib/frontend/load.js', 50]];
 ```
-Defines an array of scripts that need to be loaded, minified and prepended to the <head> if any of the hooks in the private library are executed meaningfully.
+Defines an array of scripts that need to be loaded, minified and prepended to the \<head\> if any of the hooks in the private library are executed meaningfully.
 
 &nbsp;
 
